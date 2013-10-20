@@ -1,4 +1,4 @@
-vector
+Star
 ======
 
-Vector written in C
+Like tar except much much worse

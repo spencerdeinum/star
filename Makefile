@@ -1,5 +1,5 @@
 COMPILER=clang
-OPTIONS=-std=c99 -Weverything -Werror -pedantic
+OPTIONS=-std=c99 -Weverything -Werror
 
 SOURCES=$(wildcard src/*.c)
 OBJECTS=$(subst src/,build/,$(subst .c,.o,$(SOURCES)))
