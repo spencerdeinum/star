@@ -25,7 +25,7 @@ int main(int argc, char** argv)
       files[i] = argv[optind + i];
     }
 
-    int success = star_create_archive(optarg, files);
+    int success = star_create_archive(optarg, files, fileCount);
 
     free(files);
     return success;
